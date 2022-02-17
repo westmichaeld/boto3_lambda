@@ -29,7 +29,7 @@
     ```
     pip install boto3 python-dotenv
     ```
-3.  Before we go further, in the same terminal session (your virtualenv) verify that boto3 and dotenv exist
+3.  Before we go further, in the same terminal session (your virtualenv) **verify** that boto3 and dotenv exist
     ```
     python
     >>> import boto3
@@ -38,3 +38,11 @@
     >>> import dotenv
     >>> quit()
     ```
+
+### Setup AWS IAM and Lambda
+With the virtualenv setup, we need a user with Lambda permissions.  This will allow python to interact with AWS.
+Go to AWS IAM in your browser, click on Users then Add Users
+
+
+
+
